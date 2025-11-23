@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Evolving Persona AI - Personality Evolving AI Partner</title>
+    <link rel="stylesheet" href="{{ url_for('frontend.serve_static', filename='css/style.css') }}">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+    <div class="app-container">
+        <!-- Demo Controls -->
+        <div class="demo-controls">
+            <button id="demoModeBtn" class="demo-button">
+                🚀 Start Demo Mode (Fast Evolution)
+            </button>
+            <button id="quickEvolutionBtn" class="demo-button">
+                ⚡ Instant Evolution Test
+            </button>
+        </div>
+
+        <!-- Header and Status Panel -->
+        <header class="header">
+            <div class="header-content">
+                <h1 class="app-title">Evolving Persona AI</h1>
+                <button id="statusToggle" class="status-toggle">
+                    <span class="toggle-icon">📊</span>
+                    <span class="toggle-text">Status</span>
+                </button>
+            </div>
+        </header>
+
+        <!-- Status Panel (Collapsible) -->
+        <div id="statusPanel" class="status-panel hidden">
+            <div class="status-content">
+                <div class="status-section">
+                    <h3>Current Personality</h3>
+                    <div id="currentPersona" class="persona-display">Natural</div>
+                </div>
+                
+                <div class="status-section">
+                    <h3>Affection Level</h3>
+                    <div class="affection-display">
+                        <div class="progress-bar">
+                            <div id="affectionProgress" class="progress-fill" style="width: 0%"></div>
+                        </div>
+                        <span id="affectionText" class="affection-text">0/30</span>
+                    </div>
+                </div>
+                
+                <div class="status-section">
+                    <h3>Personality Tendencies</h3>
+                    <div class="radar-chart-container">
+                        <canvas id="personalityRadar"></canvas>
+                    </div>
+                </div>
+                
+                <div class="status-section">
+                    <h3>Long-term Memories</h3>
+                    <div id="longTermMemories" class="memories-list">
+                        <div class="no-memories">No memories yet</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Main Chat Area -->
+        <main class="chat-container">
+            <div id="chatMessages" class="chat-messages">
+                <div class="welcome-message">
+                    <div class="message-bubble ai-message">
+                        <div class="message-content">
+                            Hello! I'm your AI partner. My personality evolves as we chat more.
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Typing Indicator -->
+            <div id="typingIndicator" class="typing-indicator hidden">
+                <div class="message-bubble ai-message">
+                    <div class="typing-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Input Area -->
+            <div class="input-area">
+                <div class="input-container">
+                    <textarea 
+                        id="messageInput" 
+                        placeholder="Type your message... (Use #memory to add memories)"
+                        maxlength="500"
+                        rows="1"
+                    ></textarea>
+                    <button id="sendButton" class="send-button">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none">
+                            <path d="M2 21L23 12L2 3V10L17 12L2 14V21Z" fill="currentColor"/>
+                        </svg>
+                    </button>
+                </div>
+                <div class="input-hint">
+                    Use #memory tag to save important things to memory
+                </div>
+            </div>
+        </main>
+
+        <!-- Reset Button -->
+        <button id="resetButton" class="reset-button">Reset</button>
+    </div>
+
+    <!-- Evolution Effect Overlay -->
+    <div id="evolutionOverlay" class="evolution-overlay hidden">
+        <div class="evolution-particles" id="evolutionParticles"></div>
+        <div class="evolution-modal hidden" id="evolutionModal">
+            <div class="evolution-content">
+                <!-- Content will be dynamically inserted -->
+            </div>
+        </div>
+    </div>
+
+    <script src="{{ url_for('frontend.serve_static', filename='js/script.js') }}"></script>
+</body>
+</html>
