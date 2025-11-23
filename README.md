@@ -5,6 +5,8 @@
 <img width="2905" height="1483" alt="image" src="https://github.com/user-attachments/assets/ea80c3c3-2a8c-4780-9568-65aa279e66c3" />
 <img width="2911" height="1483" alt="image" src="https://github.com/user-attachments/assets/15de5250-2e9f-4f73-aa36-f25eb8919799" />
 
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
+![Flask](https://img.shields.io/badge/Flask-2.3.3-green)
 
 ## Overview
 
