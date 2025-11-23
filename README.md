@@ -1,5 +1,10 @@
-<<<<<<< HEAD
 # Evolving Persona AI - Personality Evolving AI Partner
+<img width="2914" height="1505" alt="image" src="https://github.com/user-attachments/assets/8ff7a3be-c626-4a81-99c1-09871eb27ef5" />
+<img width="2891" height="1538" alt="image" src="https://github.com/user-attachments/assets/94ed8be6-9024-4631-8c5d-1e0353b3036a" />
+<img width="2911" height="1497" alt="image" src="https://github.com/user-attachments/assets/0e69a913-a60a-440a-95e2-9ba834da6d7b" />
+<img width="2905" height="1483" alt="image" src="https://github.com/user-attachments/assets/ea80c3c3-2a8c-4780-9568-65aa279e66c3" />
+<img width="2911" height="1483" alt="image" src="https://github.com/user-attachments/assets/15de5250-2e9f-4f73-aa36-f25eb8919799" />
+
 
 ## Overview
 
