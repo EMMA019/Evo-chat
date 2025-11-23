@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Evolving Persona AI - Personality Evolving AI Partner
 
 ## Overview
@@ -253,3 +254,7 @@ Mobile app support
 Cloud storage functionality
 
 Developer: Emma Saka
+=======
+# Evo-chat
+Evolving Persona AI is a cutting-edge chatbot system that moves beyond simple conversation. It empowers AI with a persistent, dynamic personality that evolves based on user interaction and relationship depth.  
+>>>>>>> 2a93dcfce7acae8d43a950db11adb5548a4be359
