@@ -12,6 +12,11 @@
 
 "Personality Evolving AI Partner" is an innovative chatbot system where the AI's personality dynamically changes and evolves through conversations with the user. A Flask API backend and modern frontend UI work together to provide an immersive user experience.
 
+Safety & Consent (must-read)
+
+• Parent/child and workplace usage: parental guidance and organization policies should be considered.
+• Sensitive-topic filters automatically trigger safe-response templates (e.g., underage, alcohol+driving, sexual content).
+
 ## 🌟 Key Features
 
 ### 🎨 Dynamic UI Themes
