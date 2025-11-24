@@ -8,6 +8,16 @@
 ![Python](https://img.shields.io/badge/Python-3.8%2B-blue)
 ![Flask](https://img.shields.io/badge/Flask-2.3.3-green)
 
+Developers, researchers, and technical evaluators interested in experimental persona-driven AI systems, HCI studies, and longitudinal interaction research. Not intended for  children, etc.  use.
+
+Content scope
+
+Experimental conversational personas and behavior-modulation tools. This repository may include examples, demos, and configuration that can produce mature, emotionally charged, or provocative character expressions for research and prototyping. Explicit sexual content, graphic violence, and illegal activities are disabled by default.
+
+Purpose
+
+Research and experimentation only. The project is provided to enable reproducible experiments on persona evolution, long-term memory effects, and interaction dynamics. It is not a consumer product and is not intended for deployment without additional safety, legal, and ethical review.
+
 ## Overview
 
 "Personality Evolving AI Partner" is an innovative chatbot system where the AI's personality dynamically changes and evolves through conversations with the user. A Flask API backend and modern frontend UI work together to provide an immersive user experience.
